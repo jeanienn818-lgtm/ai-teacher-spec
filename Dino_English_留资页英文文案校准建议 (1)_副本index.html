@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dino English 留资页英文文案校准建议</title>
+<style>
+:root{--navy:#123057;--ink:#20324c;--muted:#667892;--mint:#2fb7a4;--mint-soft:#eaf9f6;--blue-soft:#eef5ff;--amber:#f2ae49;--amber-soft:#fff7e8;--red:#d76363;--red-soft:#fff1f1;--line:#dfe8f1;--paper:#fff;--bg:#f5f8fb;--good:#1c8b76;--shadow:0 10px 28px rgba(22,52,88,.08)}
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Arial,sans-serif;color:var(--ink);line-height:1.65} a{color:inherit;text-decoration:none}.layout{display:grid;grid-template-columns:245px minmax(0,1fr);max-width:1500px;margin:auto}.sidebar{position:sticky;top:0;height:100vh;background:#102b4d;color:#dce8f7;padding:26px 18px;overflow:auto}.brand{font-weight:800;color:#7fe0d2;font-size:19px}.side-title{font-size:12px;color:#9fb6d2;margin:5px 0 24px}.sidebar a{display:block;padding:9px 10px;border-radius:8px;font-size:14px;margin:2px 0}.sidebar a:hover{background:rgba(255,255,255,.1);color:white}.main{padding:34px 42px 80px;max-width:1240px}.hero{background:linear-gradient(135deg,#13365f,#1c537c 63%,#2f9d96);border-radius:22px;padding:34px;color:white;box-shadow:var(--shadow)}.hero h1{font-size:31px;line-height:1.25;margin:0 0 10px}.hero p{margin:6px 0;color:#e5f3ff;max-width:960px}.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.chip{font-size:13px;border:1px solid rgba(255,255,255,.28);background:rgba(255,255,255,.12);padding:6px 11px;border-radius:999px}.section{scroll-margin-top:20px;margin-top:30px}.section h2{font-size:24px;color:var(--navy);margin:0 0 14px}.section h3{font-size:18px;color:var(--navy);margin:22px 0 10px}.grid{display:grid;gap:14px}.grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}.grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}.card{background:var(--paper);border:1px solid var(--line);border-radius:15px;padding:18px;box-shadow:0 4px 15px rgba(22,52,88,.045)}.card h3,.card h4{margin:0 0 8px;color:var(--navy)}.kpi{font-size:30px;font-weight:800;color:var(--mint)}.label{font-size:12px;color:var(--muted);letter-spacing:.04em;text-transform:uppercase}.note{background:var(--blue-soft);border-left:4px solid #6b9ddd;padding:13px 15px;border-radius:8px;margin:10px 0}.warn{background:var(--amber-soft);border-left:4px solid var(--amber);padding:13px 15px;border-radius:8px;margin:10px 0}.critical{background:var(--red-soft);border-left:4px solid var(--red);padding:13px 15px;border-radius:8px;margin:10px 0}.good{background:var(--mint-soft);border-left:4px solid var(--mint);padding:13px 15px;border-radius:8px;margin:10px 0}.tag{display:inline-block;padding:3px 8px;border-radius:999px;font-size:12px;font-weight:700;margin-right:5px}.tag.high{background:#ffe7e7;color:#ae4545}.tag.mid{background:#fff1cf;color:#8d6418}.tag.ok{background:#e6f8f3;color:#177866}.tag.shared{background:#e6efff;color:#37689f}.tag.self{background:#f3eaff;color:#7c5a9e}.tag.child{background:#e9f7ff;color:#26769f}.quote{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:#f6f8fb;border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:13px;color:#264361;display:block;margin:5px 0;white-space:pre-wrap}.arrow{font-weight:800;color:var(--mint)}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:14px;background:white;box-shadow:0 3px 14px rgba(22,52,88,.04)}table{width:100%;border-collapse:collapse;min-width:940px}th{background:#eef4fa;color:#294968;text-align:left;padding:11px 12px;font-size:13px;position:sticky;top:0}td{padding:12px;border-top:1px solid var(--line);vertical-align:top;font-size:14px}tr:hover td{background:#fbfdff}.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.flow-step{background:white;border:1px solid var(--line);padding:9px 12px;border-radius:10px;font-size:13px}.flow-arrow{color:var(--mint);font-weight:900}.decision{border-left:4px solid var(--mint)}.code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px}.copy-card{border:1px solid var(--line);border-radius:12px;padding:14px;background:#fff}.copy-card .title{font-weight:800;color:var(--navy);font-size:16px}.copy-card .sub{color:#5c6f86;font-size:14px;margin-top:3px}.copy-card ul{margin:7px 0 0;padding-left:19px}.copy-card li{margin:3px 0}.toc-mini{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.toc-mini a{background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px;color:#31526f;font-size:13px}.toc-mini a:hover{border-color:var(--mint);background:var(--mint-soft)}details{background:white;border:1px solid var(--line);border-radius:12px;margin:8px 0;padding:0 14px}summary{cursor:pointer;font-weight:800;color:var(--navy);padding:13px 0}details>div{padding:0 0 12px}.footer{margin-top:34px;color:var(--muted);font-size:13px}.small{font-size:13px;color:var(--muted)}.em{color:var(--good);font-weight:800}.strike{text-decoration:line-through;color:#8997aa}.print-only{display:none}
+@media(max-width:980px){.layout{display:block}.sidebar{position:relative;height:auto}.sidebar nav{display:flex;gap:4px;flex-wrap:wrap}.sidebar a{background:rgba(255,255,255,.07)}.main{padding:22px 16px 60px}.grid.three,.grid.two,.toc-mini{grid-template-columns:1fr}.hero h1{font-size:26px}}
+@media print{body{background:#fff}.sidebar{display:none}.layout{display:block}.main{max-width:none;padding:0}.hero{box-shadow:none}.card,.table-wrap{box-shadow:none}.section{break-inside:avoid}.print-only{display:block}}
+</style>
+</head>
+<body>
+<div class="layout">
+<aside class="sidebar">
+  <div class="brand">Dino English</div>
+  <div class="side-title">留资页英文文案校准建议 · V1</div>
+  <nav>
+    <a href="#summary">01 核心结论</a>
+    <a href="#questions">02 疑问简答</a>
+    <a href="#principles">03 文案原则</a>
+    <a href="#flow">04 流程调整</a>
+    <a href="#shared">05 通用页面逐页建议</a>
+    <a href="#self">06 For myself 分支</a>
+    <a href="#child">07 For my child 分支</a>
+    <a href="#interstitial">08 说明页文案</a>
+    <a href="#implementation">09 可直接交付研发</a>
+    <a href="#logic">10 产品逻辑补充</a>
+  </nav>
+</aside>
+<main class="main">
+<section class="hero">
+  <h1>Dino English 用户信息预留页<br>英文文案校准与流程精简建议</h1>
+  <p>基于 <b>For myself</b> 与 <b>For my child</b> 两条注册路径逐页校准。目标不是让英文显得“更高级”，而是让用户在最短时间内理解：为什么要回答、下一步会得到什么、填写过程是否值得继续。</p>
+  <div class="chips"><span class="chip">Native wording</span><span class="chip">注册转化友好</span><span class="chip">分支逻辑一致</span><span class="chip">研发可直接替换</span></div>
+</section>
+
+<section id="summary" class="section">
+<h2>01｜核心结论</h2>
+<div class="grid three">
+  <div class="card"><div class="label">Priority 1</div><div class="kpi">统一</div><h3>先修复分支混用</h3><p>选择 <b>For myself</b> 后仍出现 child、Liam；选择 <b>For my child</b> 后仍出现 you and your child。此类错误比语言风格问题更影响信任感。</p></div>
+  <div class="card"><div class="label">Priority 2</div><div class="kpi">精简</div><h3>减少中途插页</h3><p>问卷只有 5 步，最好连续完成。年龄后说明页、每个目标后的营销说明页，会让用户误以为流程变长。</p></div>
+  <div class="card"><div class="label">Priority 3</div><div class="kpi">自然</div><h3>用用户语言，不用产品术语</h3><p>优先使用 <b>starting point</b>、<b>first lesson</b>、<b>learning plan</b>。避免 <b>entry point</b>、<b>proper account</b> 等偏内部或偏技术表达。</p></div>
+</div>
+<div class="good"><b>推荐方向：</b>保留「5 个快速问题 → 生成适合的学习起点与第一节课推荐」这一价值主线；减少非必要页面跳转；让 self / child 两条路径只在必须个性化的位置发生变化。</div>
+</section>
+
+<section id="questions" class="section">
+<h2>02｜文档中疑问的简要解答</h2>
+<div class="table-wrap"><table>
+<thead><tr><th style="width:24%">疑问</th><th style="width:20%">结论</th><th>原因与推荐表达</th></tr></thead>
+<tbody>
+<tr><td>首页是否要删除 <span class="code">your child's</span>？</td><td><span class="tag high">是，必须改</span></td><td>首页尚未区分 learner。推荐主标题改为 <span class="quote">Meet Your Personal AI English Teacher</span> 副标题改为 <span class="quote">Learn English anytime, anywhere.</span></td></tr>
+<tr><td>开场白是否改成 <span class="code">Just a few quick questions to get started</span>？</td><td><span class="tag mid">可更好</span></td><td>仅说 “get started” 很轻，但没有解释填写价值。更推荐：<span class="quote">Just a few quick questions to find the right starting point for your learning.</span></td></tr>
+<tr><td>年龄后说明页是否必要？</td><td><span class="tag high">建议删除</span></td><td>它会打断 5 步问卷。填写原因应直接放在年龄页辅助文字中，或在开场页一次讲清。</td></tr>
+<tr><td><span class="code">starting point</span> 还是 <span class="code">entry point</span>？</td><td><span class="tag ok">starting point</span></td><td><span class="code">starting point</span> 更自然、更温和，也更符合学习产品语境。<span class="code">entry point</span> 更像产品架构或入学入口。</td></tr>
+<tr><td><span class="code">comfortable starting point</span> 是否自然？</td><td><span class="tag mid">不算错，但不够准</span></td><td>“comfortable” 暗示容易、不费力；此处核心是匹配度。推荐：<span class="quote">We'll recommend the starting point that best fits you.</span></td></tr>
+<tr><td><span class="code">English you'll actually use</span> 是否不地道？</td><td><span class="tag ok">本身很地道</span></td><td>它是常见的英语营销表达，不是生硬直译。但语气较口语、略强调“真正用得到”。若整体品牌想更克制，推荐 <span class="quote">English for everyday life</span></td></tr>
+<tr><td>按钮中要不要句号？</td><td><span class="tag ok">通常不要</span></td><td>按钮和 CTA 一般不加句号。应保持短、直接、动作明确。</td></tr>
+<tr><td><span class="code">start your first class</span> 还是 <span class="code">start the first class</span>？</td><td><span class="tag ok">your first lesson</span></td><td>对本人路径，<span class="code">your first</span> 更自然，体现个性化旅程。全站已使用 lesson，建议统一为：<span class="quote">Save your plan and start your first lesson</span></td></tr>
+<tr><td>目标选择后的说明页是否保留？</td><td><span class="tag mid">不建议逐个弹出</span></td><td>营销内容有价值，但不应穿插在问卷步骤之间。推荐在问卷完成后，用 1 个可快速扫读的计划确认页集中展示。</td></tr>
+</tbody></table></div>
+</section>
+
+<section id="principles" class="section">
+<h2>03｜适合此注册场景的文案原则</h2>
+<div class="grid three">
+ <div class="card"><h3>1. 每页只解决一个问题</h3><p>标题问问题，辅助文案只解释填写用途。避免在同一页同时解释账户、课程、互动特色和报告功能。</p></div>
+ <div class="card"><h3>2. 用 “recommend” 建立专业感</h3><p>不是简单收集信息，而是为了推荐适合的起点和课程。用户更容易理解填写价值。</p></div>
+ <div class="card"><h3>3. 保持 lesson / plan / starting point 一致</h3><p>减少 class、entry point、level、course 在相近语境中随意切换，降低理解成本。</p></div>
+</div>
+</section>
+
+<section id="flow" class="section">
+<h2>04｜推荐流程：让 5 步问卷连续完成</h2>
+<div class="card decision">
+<div class="flow">
+<span class="flow-step">Landing page</span><span class="flow-arrow">→</span>
+<span class="flow-step">Why we ask · 1 句</span><span class="flow-arrow">→</span>
+<span class="flow-step">1. Who's learning?</span><span class="flow-arrow">→</span>
+<span class="flow-step">2. Name</span><span class="flow-arrow">→</span>
+<span class="flow-step">3. Age</span><span class="flow-arrow">→</span>
+<span class="flow-step">4. English level</span><span class="flow-arrow">→</span>
+<span class="flow-step">5. Main goal</span><span class="flow-arrow">→</span>
+<span class="flow-step">Personalized plan summary</span><span class="flow-arrow">→</span>
+<span class="flow-step">Sign up / Continue</span>
+</div>
+</div>
+<div class="warn"><b>建议取消：</b>年龄选择后的独立说明页；目标选择后逐个出现的独立营销页。若业务一定希望展示卖点，可在计划总结页下方放 2–3 条与用户目标相关的动态卖点。</div>
+</section>
+
+<section id="shared" class="section">
+<h2>05｜通用页面：逐页英文修改建议</h2>
+<p class="small">适用于两条路径。文档页码以用户提供的两个 Word 文档为依据。</p>
+<div class="table-wrap"><table>
+<thead><tr><th>页面 / 位置</th><th>当前表达</th><th>建议替换</th><th>说明</th></tr></thead>
+<tbody>
+<tr><td><b>首页</b><br><span class="small">两文档 P1</span></td><td><span class="quote">Meet Your Exclusive AI English Teacher</span><span class="quote">Boost your child's English skills anytime, anywhere.</span><span class="quote">I have an account</span></td><td><span class="quote">Meet Your Personal AI English Teacher</span><span class="quote">Learn English anytime, anywhere.</span><span class="quote">Log in</span></td><td><b>Personal</b> 比 <b>Exclusive</b> 更自然，也更直接表达个性化；首页不应预设 child；已有账户入口用 Log in 更标准、更短。</td></tr>
+<tr><td><b>已有账户页</b><br><span class="small">Child 文档 P2</span></td><td><span class="quote">Save your plan and continue</span></td><td><span class="quote">Log in to continue</span></td><td>从首页点击 Log in 的用户不是在新建计划，标题应与返回用户心智一致。Apple / Google 按钮可保留。</td></tr>
+<tr><td><b>问卷开场页</b><br><span class="small">Myself P2 / Child P3</span></td><td><span class="quote">Hi, I'm Dino! Just a few quick questions to understand your goals and preferences.</span></td><td><span class="quote">Hi, I'm Dino! Just a few quick questions to find the right starting point for your learning.</span></td><td>更直接解释“为什么问”，同时保持亲和力。若页面空间紧张，可简化为：<span class="code">Let's find the right starting point for you.</span></td></tr>
+<tr><td><b>Step 1</b><br><span class="small">Who's learning?</span></td><td><span class="quote">We'll personalize lessons based on who's learning.</span></td><td><span class="quote">We'll personalize the learning plan for the learner.</span></td><td>当前表达并非错误，但略重复。推荐版本更准确地承接后续生成 learning plan 的产品逻辑。</td></tr>
+</tbody></table></div>
+</section>
+
+<section id="self" class="section">
+<h2>06｜For myself 路径：逐页可直接替换文案</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>步骤</th><th>当前表达 / 问题</th><th>推荐最终文案</th><th>原因</th></tr></thead>
+<tbody>
+<tr><td><b>Step 2 · Name</b><br><span class="small">Myself P4</span></td><td><span class="quote">What's your name?</span><span class="quote">We will call you by this name.</span></td><td><span class="quote">What should we call you?</span><span class="quote">We'll use this name in your lessons.</span></td><td>更适合可输入昵称的产品场景；语气自然，且解释了用途。</td></tr>
+<tr><td><b>Step 3 · Age</b><br><span class="small">Myself P5</span></td><td><span class="quote">How old are you?</span><span class="quote">This helps us create a proper account for you and your child.</span></td><td><span class="quote">How old are you?</span><span class="quote">This helps us recommend the right starting level and lessons for you.</span></td><td>删除错误的 child；避免 proper account 这类内部逻辑表达，将价值聚焦到推荐。</td></tr>
+<tr><td><b>Step 4 · Level</b><br><span class="small">Myself P7</span></td><td><span class="quote">What's your current level?</span><span class="quote">We'll pick a comfortable starting point.</span></td><td><span class="quote">How would you describe your current English level?</span><span class="quote">We'll recommend the starting point that best fits you.</span></td><td>问题更明确；辅助语强调匹配而不是简单或舒适。</td></tr>
+<tr><td><b>Step 5 · Goal</b><br><span class="small">Myself P8</span></td><td><span class="quote">What's your main goal right now?</span><span class="quote">We'll recommend the first lesson based on this.</span></td><td><span class="quote">What's your main learning goal right now?</span><span class="quote">We'll use this to recommend the best first lesson for you.</span></td><td>补充 learning，避免过宽；best first lesson 更符合个性化推荐。</td></tr>
+<tr><td><b>Plan summary CTA</b><br><span class="small">Myself P12</span></td><td><span class="quote">Save Liam's plan and start your first class</span></td><td><span class="quote">Save your plan and start your first lesson</span></td><td>删除错误姓名；lesson 与前文保持统一；按钮不需要句号。</td></tr>
+</tbody></table></div>
+<h3>Level 选项建议（Self）</h3>
+<div class="grid two">
+<div class="copy-card"><div class="title">Beginner</div><div class="sub">Just starting out</div></div>
+<div class="copy-card"><div class="title">Basic</div><div class="sub">Know a few words and phrases</div></div>
+<div class="copy-card"><div class="title">Intermediate</div><div class="sub">Can say simple sentences</div></div>
+<div class="copy-card"><div class="title">Advanced</div><div class="sub">Can communicate with confidence</div></div>
+</div>
+<h3>Goal 选项建议（Self）</h3>
+<div class="grid two">
+<div class="copy-card"><div class="title">Speak with confidence</div></div>
+<div class="copy-card"><div class="title">Improve my English for school</div></div>
+<div class="copy-card"><div class="title">Follow a clear learning path</div></div>
+<div class="copy-card"><div class="title">Use English in daily life and travel</div></div>
+<div class="copy-card"><div class="title">Build a consistent learning habit</div></div>
+</div>
+</section>
+
+<section id="child" class="section">
+<h2>07｜For my child 路径：逐页可直接替换文案</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>步骤</th><th>当前表达 / 问题</th><th>推荐最终文案</th><th>原因</th></tr></thead>
+<tbody>
+<tr><td><b>Step 2 · Name</b><br><span class="small">Child P5</span></td><td><span class="quote">What's your child's name?</span><span class="quote">We will call you by this name.</span><span class="quote">Your child's name</span></td><td><span class="quote">What should we call your child?</span><span class="quote">We'll use this name in lessons.</span><span class="quote">Your child's name or nickname</span></td><td>修复 you 指代错误；同时兼容 nickname。</td></tr>
+<tr><td><b>Step 3 · Age</b><br><span class="small">Child P6</span></td><td><span class="quote">How old is your child?</span><span class="quote">This helps us create a proper account for you and your child.</span></td><td><span class="quote">How old is your child?</span><span class="quote">This helps us recommend the right starting level and lessons for your child.</span></td><td>重点不是创建账户，而是准确推荐。</td></tr>
+<tr><td><b>Step 4 · Level</b><br><span class="small">Child P8</span></td><td><span class="quote">What's your child's current level?</span><span class="quote">We'll pick a comfortable starting point.</span></td><td><span class="quote">How would you describe your child's current English level?</span><span class="quote">We'll recommend the starting point that best fits your child.</span></td><td>更像家长能准确回答的问题，也更有专业度。</td></tr>
+<tr><td><b>Step 5 · Goal</b><br><span class="small">Child P9</span></td><td><span class="quote">What's your child's main goal right now?</span><span class="quote">We'll recommend the first lesson based on this.</span></td><td><span class="quote">What's your child's main learning goal right now?</span><span class="quote">We'll use this to recommend the best first lesson for your child.</span></td><td>添加 learning，降低歧义。</td></tr>
+<tr><td><b>Plan summary CTA</b><br><span class="small">Child P12</span></td><td><span class="quote">Save Olivia's plan and start your first class</span></td><td><span class="quote">Save Olivia's plan and start the first lesson</span></td><td>点击者是家长，而实际学习者是孩子；用 the first lesson 避免把 first class 归属于家长。</td></tr>
+</tbody></table></div>
+<h3>Level 选项建议（Child）</h3>
+<div class="grid two">
+<div class="copy-card"><div class="title">Beginner</div><div class="sub">Just starting out</div></div>
+<div class="copy-card"><div class="title">Basic</div><div class="sub">Knows a few words and phrases</div></div>
+<div class="copy-card"><div class="title">Intermediate</div><div class="sub">Can say simple sentences</div></div>
+<div class="copy-card"><div class="title">Advanced</div><div class="sub">Can communicate with confidence</div></div>
+</div>
+<h3>Goal 选项建议（Child）</h3>
+<div class="grid two">
+<div class="copy-card"><div class="title">Speak with confidence</div></div>
+<div class="copy-card"><div class="title">Improve English for school</div></div>
+<div class="copy-card"><div class="title">Follow a clear learning path</div></div>
+<div class="copy-card"><div class="title">Use English in daily life and travel</div></div>
+<div class="copy-card"><div class="title">Build a consistent learning habit</div></div>
+</div>
+</section>
+
+<section id="interstitial" class="section">
+<h2>08｜目标说明页：建议从“逐页弹出”改为计划页动态卖点</h2>
+<p>原文档中在选择目标后出现多张独立说明页（Myself P9–P11；Child P10–P11）。这些英文整体不差，但页面出现时机不理想。推荐把它们放到最终计划页中，只展示与用户目标最相关的 1 张卡片。</p>
+<div class="grid two">
+ <div class="copy-card"><div class="label">Speak with confidence</div><div class="title">Start speaking from your very first lesson</div><div class="sub">Your AI teacher asks questions, listens, and responds to your answers.</div><ul><li>Speaking practice in every lesson</li><li>Instant, encouraging feedback</li><li>Confidence that builds lesson by lesson</li></ul></div>
+ <div class="copy-card"><div class="label">Do better in school</div><div class="title">Build stronger English skills for school</div><div class="sub">Each unit develops speaking and the language skills that matter in class.</div><ul><li>Aligned with school learning goals</li><li>Track completed lessons</li><li>Review anytime</li></ul></div>
+ <div class="copy-card"><div class="label">Follow a clear path</div><div class="title">A clear learning path from Lesson 1</div><div class="sub">Follow step-by-step levels and track your progress.</div><ul><li>A structured curriculum</li><li>A recommended next lesson</li><li>A report after every lesson</li></ul></div>
+ <div class="copy-card"><div class="label">Daily life and travel</div><div class="title">English for everyday life</div><div class="sub">Practice real-life conversations in every lesson.</div><ul><li>Everyday topics</li><li>Speaking practice in every lesson</li><li>Quick practice after class</li></ul></div>
+ <div class="copy-card"><div class="label">Daily habit</div><div class="title">Easy to start, easy to keep going</div><div class="sub">Start with short, interactive lessons and practice listening anytime.</div><ul><li>Bite-sized daily lessons</li><li>Fun enough to return to each day</li><li>Progress that keeps you motivated</li></ul></div>
+</div>
+<div class="note"><b>关于 “English you'll actually use”：</b>原表达本身是 native 的，适合偏活泼、偏营销的语气。报告推荐 “English for everyday life”，是因为它更稳定、克制，也更适合家长和成人共用。</div>
+</section>
+
+<section id="implementation" class="section">
+<h2>09｜可直接交付研发的替换清单</h2>
+<details open><summary>A. 全局共用文案</summary><div>
+<span class="quote">Meet Your Personal AI English Teacher</span>
+<span class="quote">Learn English anytime, anywhere.</span>
+<span class="quote">Get Started</span>
+<span class="quote">Log in</span>
+<span class="quote">Hi, I'm Dino! Just a few quick questions to find the right starting point for your learning.</span>
+<span class="quote">Who's learning?</span>
+<span class="quote">We'll personalize the learning plan for the learner.</span>
+<span class="quote">For my child</span>
+<span class="quote">For myself</span>
+</div></details>
+<details><summary>B. For myself 分支</summary><div>
+<span class="quote">What should we call you?</span><span class="quote">We'll use this name in your lessons.</span>
+<span class="quote">How old are you?</span><span class="quote">This helps us recommend the right starting level and lessons for you.</span>
+<span class="quote">How would you describe your current English level?</span><span class="quote">We'll recommend the starting point that best fits you.</span>
+<span class="quote">What's your main learning goal right now?</span><span class="quote">We'll use this to recommend the best first lesson for you.</span>
+<span class="quote">Save your plan and start your first lesson</span>
+</div></details>
+<details><summary>C. For my child 分支</summary><div>
+<span class="quote">What should we call your child?</span><span class="quote">We'll use this name in lessons.</span><span class="quote">Your child's name or nickname</span>
+<span class="quote">How old is your child?</span><span class="quote">This helps us recommend the right starting level and lessons for your child.</span>
+<span class="quote">How would you describe your child's current English level?</span><span class="quote">We'll recommend the starting point that best fits your child.</span>
+<span class="quote">What's your child's main learning goal right now?</span><span class="quote">We'll use this to recommend the best first lesson for your child.</span>
+<span class="quote">Save {child_name}'s plan and start the first lesson</span>
+</div></details>
+</section>
+
+<section id="logic" class="section">
+<h2>10｜除英文之外，建议同步确认的产品逻辑</h2>
+<div class="grid two">
+<div class="card"><h3>年龄选项是否需要随路径变化</h3><p>Child 路径当前包含 <b>18+</b>。如果产品只服务儿童与青少年，建议删除；如果允许家长为成年子女创建计划，需要在产品定义中明确。</p></div>
+<div class="card"><h3>目标选项是否需要随年龄变化</h3><p><b>Do better in school</b> 对 adult self 路径并不适用。建议根据年龄隐藏，或改为更宽的 <b>Improve my English for school or study</b>。</p></div>
+<div class="card"><h3>课程单位建议统一使用 lesson</h3><p>问卷中已有 first lesson、every lesson。计划页继续使用 lesson，可减少 class / lesson 混用。</p></div>
+<div class="card"><h3>动态姓名必须读取正确对象</h3><p>Self 路径显示用户本人姓名或 your；Child 路径显示 child_name。当前 Liam / Olivia 串线属于必须优先修复的问题。</p></div>
+</div>
+</section>
+
+<div class="footer">说明：本报告针对用户提供的两份留资页文档逐页审阅，优先考虑注册转化、母语自然度、分支一致性和后续研发可执行性。建议上线前再进行一次完整路径 QA：Self × 全年龄 × 全目标；Child × 全年龄 × 全目标。</div>
+</main>
+</div>
+</body>
+</html>
